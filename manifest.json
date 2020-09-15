@@ -1,13 +1,15 @@
 {
-    "name": "Thanos Snap",
+    "name": "Thanos Snap - Bloqueador de spoiler",
     "version": "1.0",
-    "description": "Adblocker Anti Spoiler",
+    "description": "Bloqueia qualquer tipo de spoiler que esteja aparecendo na sua tela.",
     "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
     "background": {
         "scripts": ["background.js"]
     },
     "icons": {
-        "16": "icons/logo.png"
+        "16": "icons/logo.png",
+        "48": "icons/logo.png",
+        "128": "icons/logo.png"
     },
     "manifest_version": 2
 }
